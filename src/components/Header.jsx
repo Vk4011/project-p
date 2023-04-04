@@ -52,8 +52,7 @@ function Header() {
             <a className="mob-nav-li" href="#contact">Contact</a>
             <div className="container">
                 <input id="checkbox" name="checkbox" type="checkbox" />
-                <label className="label" htmlFor="checkbox">
-                </label>
+               
               </div>
           </nav>
               

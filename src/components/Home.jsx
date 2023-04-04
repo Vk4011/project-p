@@ -23,10 +23,10 @@ function Home() {
 </button></a>
 
   </div>
-  <div className="profession-container">
-    <div className="profession-box">
+  <div className="">
+    <div className="">
       <div className="profession" style={{'-i': 0}}><i className="bx bx-code-alt" />
-        <h3>Web Devloper</h3>
+        {/* <h3>Web Devloper</h3> */}
       </div>
       <div className="circle" />
     </div>
@@ -35,7 +35,7 @@ function Home() {
       
     </div>
     <div className="home-img">
-      <img src={img} alt />
+      {/* <img src={img} alt /> */}
     </div>        
   </div>
   </section>
