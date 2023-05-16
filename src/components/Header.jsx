@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import img from "./v3.png";
 import "../App.css";
+import c from './close.png'
 import menu from './menu.webp'
 function Header() {
   const [isopen, setIspoen] = useState(true);
@@ -8,6 +9,17 @@ function Header() {
     console.log(isopen);
     setIspoen(!isopen);
   };
+
+function Ball(){
+  document.body.style.backgroundImage="linear-gradient(45deg,rgb(225, 93, 194),rgb(71, 183, 235),rgb(220, 99, 238))";
+}
+// const h=document.getElementById("Hamburger");
+
+// h.onclick = function(){
+//   h.style.img.src={c};
+// }
+
+
   return (
     <>
       <header className="header">
@@ -36,7 +48,7 @@ function Header() {
         </nav>
         <div className="container">
                 <input id="checkbox" name="checkbox" type="checkbox" />
-                <label className="label" htmlFor="checkbox">
+                <label className="label"  onClick={Ball}  htmlFor="checkbox">
                 </label>
               </div>
       </header>
