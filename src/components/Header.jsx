@@ -11,7 +11,12 @@ function Header() {
   };
 
 function Ball(){
-  document.body.style.backgroundImage="linear-gradient(45deg,rgb(225, 93, 194),rgb(71, 183, 235),rgb(220, 99, 238))";
+  if(!Ball){
+  document.body.style.backgroundImage="linear-gradient(to right,#784bf6,#3490fa)";
+  }else{
+  document.body.style.backgroundImage="";
+  }
+  Ball=!Ball;
 }
 // const h=document.getElementById("Hamburger");
 
