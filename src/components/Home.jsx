@@ -11,6 +11,8 @@ import html from './html-5.png'
 import js from './js.png'
 import java from './java.png'
 import github from './github.png'
+import react from './react.png'
+
 
 function Home() {
 
@@ -60,26 +62,30 @@ function Home() {
     <h2 class="heading"><span>Skills</span></h2>
     <div class="skills-container">
         <div class="skills-box">
-          <img src={github} alt="" />
+          <img src={github} alt="" className='icons' />
             
-            <a href="#" class="btn"><h3>GitHub</h3></a>
+            <a href="https://github.com/Vk4011" class="btn"><h3>GitHub</h3></a>
         </div>
         <div class="skills-box">
-            <img src={html} alt="HTML Icon"/>
+            <img src={html} alt="HTML Icon" className='icons'  />
             <a href="#" class="btn"> <h3>HTML</h3></a>
         </div>
         <div class="skills-box">
-            <img src={css} alt="CSS Icon"/>
-            <a href="#" class="btn"> <h3>CSS</h3></a>
+            <img src={css} alt="CSS Icon" className='icons'  />
+            <a href="https://github.com/Vk4011/CSS" class="btn"> <h3>CSS</h3></a>
         </div>
         <div class="skills-box">
-            <img src={js} alt="JavaScript Icon"/>
-            <a href="#" class="btn"><h3>JavaScript</h3></a>
+            <img src={js} alt="JavaScript Icon" className='icons'  />
+            <a href="https://github.com/Vk4011/java-script" class="btn"><h3>JavaScript</h3></a>
         </div>
         <div class="skills-box">
-            <img src={java} alt="Java Icon"/>
-            <a href="#" class="btn"><h3>Java</h3></a>
+            <img src={react} alt="React Icon" className='icons-react'  />
+            <a href="https://github.com/Vk4011/React.git" class="btn"><h3>React</h3></a>
         </div>
+        {/* <div class="skills-box">
+            <img src={java} alt="Java Icon" className='icons'  />
+            <a href="https://github.com/Vk4011/DSA" class="btn"><h3>Java</h3></a>
+        </div> */}
       
        
     </div>
