@@ -25,7 +25,6 @@
   transition: transform 0.4s;
 }
 
-
 .label:hover {
   -webkit-transform: perspective(100px) rotateX(5deg) rotateY(-5deg);
   transform: perspective(100px) rotateX(5deg) rotateY(-5deg);
@@ -62,35 +61,16 @@
     #726f6f 62%
   );
   left: 10px;
-  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3),
+    10px 10px 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container {
 }
-.hamburger{
+.hamburger {
   display: none;
 }
 .label {
@@ -193,7 +173,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 7%;
+  padding: 0.5rem 7%;
   background: rgb(48, 56, 74);
   display: flex;
   align-items: center;
@@ -495,7 +475,6 @@ button:active {
   line-height: 1;
   font-weight: 600;
   color: #4bacd8;
-  
 }
 .home .profession-box .circle {
   width: 560px;
@@ -563,7 +542,8 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
   gap: 40rem;
 }
 .services-container .services-box {
@@ -737,28 +717,27 @@ button:active {
   }
 }
 @media (max-width: 768px) {
-  
-  .hamburger{
+  .hamburger {
     /* font-size: 5rem; */
     margin-right: 3rem;
     color: white;
     /* width: 40rem; */
     display: block;
   }
- .ham-btn{
-  width: 50px;
- }
-  .header{
+  .ham-btn {
+    width: 50px;
+  }
+  .header {
     position: inherit;
     padding: 16px;
   }
-  .mobile-navbar{
+  .mobile-navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .mob-nav-li{
+  .mob-nav-li {
     color: #000000;
     padding: 1rem;
     font-size: 2rem;
@@ -766,9 +745,9 @@ button:active {
     border-radius: 50px;
     margin: 6px;
     width: 80%;
-    border:solid 1px #03a9f4;
+    border: solid 1px #03a9f4;
   }
-  .mob-nav-li:hover{
+  .mob-nav-li:hover {
     background-color: skyblue;
     color: white;
   }
@@ -778,7 +757,7 @@ button:active {
     text-align: center;
     position: sticky;
   }
-  section{
+  section {
     padding: 0;
     min-height: 80vh;
   }
@@ -792,10 +771,10 @@ button:active {
     color: var(--text-color);
     margin-bottom: 0.1rem;
   }
-  .portfolio-box-img{
+  .portfolio-box-img {
     width: 240px;
   }
- 
+
   .navbar {
     display: none;
     position: absolute;
@@ -820,7 +799,7 @@ button:active {
   .navbar a::before {
     display: none;
   }
- 
+
   .home-content h3 {
     font-size: 2.6rem;
   }
@@ -896,4 +875,18 @@ button:active {
   .portfolio .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.skills-container{
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+}
+.skills-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  
 }

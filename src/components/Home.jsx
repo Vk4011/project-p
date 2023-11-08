@@ -6,7 +6,11 @@ import d from './d.png'
 import ds from './ds.png'
 import dv from './dv.png'
 import apd from './apd.png'
-import brain from './brain.png'
+import css from './css-3.png'
+import html from './html-5.png'
+import js from './js.png'
+import java from './java.png'
+import github from './github.png'
 
 function Home() {
 
@@ -52,35 +56,35 @@ function Home() {
     <a href="#" className="btn">Read More</a>
   </div>
 </section>
-<section class="services" id="services">
-        <h2 class="heading">My <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
-                <p>Web development services are essential for businesses and organizations looking to establish a strong online presence. Web development involves the creation of websites and web applications, 
-                    and can include everything from simple brochure sites to complex e-commerce platforms.</p>
-                    <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-paint'></i>
-                <h3>Graphic design</h3>
-                <p>Graphic design is the art and practice of creating visual content to communicate messages or ideas to a target audience. It encompasses a wide range of mediums, 
-                    including print, digital, and multimedia.
-
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-bar-chart-alt'></i>
-                <h3>App Development</h3>
-                <p>An app developer is a professional who creates 
-                  mobile applications for different platforms such as iOS, Android, and Windows
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
+<section class="skills" id="skills">
+    <h2 class="heading"><span>Skills</span></h2>
+    <div class="skills-container">
+        <div class="skills-box">
+          <img src={github} alt="" />
+            
+            <a href="#" class="btn"><h3>GitHub</h3></a>
         </div>
-    </section>
+        <div class="skills-box">
+            <img src={html} alt="HTML Icon"/>
+            <a href="#" class="btn"> <h3>HTML</h3></a>
+        </div>
+        <div class="skills-box">
+            <img src={css} alt="CSS Icon"/>
+            <a href="#" class="btn"> <h3>CSS</h3></a>
+        </div>
+        <div class="skills-box">
+            <img src={js} alt="JavaScript Icon"/>
+            <a href="#" class="btn"><h3>JavaScript</h3></a>
+        </div>
+        <div class="skills-box">
+            <img src={java} alt="Java Icon"/>
+            <a href="#" class="btn"><h3>Java</h3></a>
+        </div>
+      
+       
+    </div>
+</section>
+
     <section className="portfolio" id="portfolio">
   <h2 className="heading">Latest  <span>Project</span></h2>
   <div className="portfolio-container">
