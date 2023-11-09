@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import img from "./v3.png";
+import img from "./images/v3.png";
 import "../App.css";
-import c from './close.png'
-import menu from './menu.webp'
+import c from './images/close.png'
+import menu from './images/menu.webp'
 function Header() {
   const [isopen, setIspoen] = useState(true);
   const onIsopenClick = () => {
@@ -29,23 +29,24 @@ function Ball(){
     <>
       <header className="header">
         <a href="#" className="logo">
-          <img src={img} alt="" />
+          <img src={img} alt="" className="logov" />
         </a>
 
         <div>
           <div className="hamburger" onClick={onIsopenClick}>
-           {/* <MenuIcon fontSize="large"/>  */}
-            <img className="ham-btn" src={menu} alt="" />
+          
+            <img className="ham-btn" onClick={onIsopenClick}  src={isopen ? c : menu}  alt="" />
+          
           </div>
         </div>
         <nav className="navbar">
           <a href="#home" className="active">
             Home
           </a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" className="active">About</a>
+          <a href="#skills" className="active">Skills</a>
+          <a href="#portfolio" className="active">Projects</a>
+          <a href="#contact" className="active">Contact</a>
              
 
 

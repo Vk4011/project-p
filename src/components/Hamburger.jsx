@@ -2,7 +2,9 @@ import React from 'react'
 import './Hamburger.css'
 
 
+
 function Hamburger({btn}) {
+ 
   return (
     <>
     <div className='hamburger' onClick={btn}>
@@ -14,6 +16,7 @@ function Hamburger({btn}) {
     <div className="line3" />
     <label /></label>
     </div></div>
+
 
     </>
   )
