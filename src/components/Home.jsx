@@ -31,7 +31,7 @@ function Home() {
             I believe that web development is indeed an important and growing
             field with a lot of potential for the future.
           </p>
-          <a>
+          <a href="https://vikramresume.netlify.app/" download>
             <button>Download CV</button>
           </a>
         </div>
@@ -147,7 +147,10 @@ function Home() {
           </div>
           <div className="portfolio-box">
             <video className="codelab" autoPlay loop muted>
-              <source src="https://res.cloudinary.com/datowd0cc/video/upload/v1699510332/Space-game/yktkjzrpphu8dnicaxta.mp4" type="video/mp4" />
+              <source
+                src="https://res.cloudinary.com/datowd0cc/video/upload/v1699510332/Space-game/yktkjzrpphu8dnicaxta.mp4"
+                type="video/mp4"
+              />
             </video>
             <div className="portfolio-layer" />
             <br />
