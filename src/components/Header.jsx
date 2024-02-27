@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import img from "./images/v3.png";
 import "../App.css";
 import c from './images/close.png'
-import menu from './images/menu.webp'
+import menu from "./images/menu.png";
 function Header() {
   const [isopen, setIspoen] = useState(true);
   const onIsopenClick = () => {
@@ -65,8 +65,8 @@ function Ball(){
               Home
             </a>
             <a className="mob-nav-li" href="#about">About</a>
-            <a className="mob-nav-li" href="#services">Services</a>
-            <a className="mob-nav-li" href="#portfolio">Portfolio</a>
+            <a className="mob-nav-li" href="#skills">Skills</a>
+            <a className="mob-nav-li" href="#portfolio">Projects</a>
             <a className="mob-nav-li" href="#contact">Contact</a>
             <div className="container">
                 <input id="checkbox" name="checkbox" type="checkbox" />

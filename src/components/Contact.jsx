@@ -1,5 +1,5 @@
 import React from 'react'
-import up from './images/up.png'
+import up from './images/up.png';
 function Contact() {
   return (
     <>

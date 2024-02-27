@@ -4,7 +4,6 @@ import React from "react";
 import d from "./images/d.png";
 import ds from "./images/ds.png";
 import dv from "./images/dv.png";
-import apd from "./images/apd.png";
 import css from "./images/css-3.png";
 import html from "./images/html.png";
 import js from "./images/js.png";
@@ -53,7 +52,7 @@ function Home() {
 
       <section className="about" id="about">
         <div className="about-img">
-          <img src={v} alt />
+          <img src={v} alt className="vikram" />
         </div>
         <div className="about-content">
           <h2 className="heading">

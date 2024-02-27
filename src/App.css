@@ -503,11 +503,11 @@ button:active {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: var(--white-color);
+  background: transparent;
 }
 .about-img img {
   width: 35w;
-  border-radius: 80px;
+  border-radius:80px 80px 135px 80px;
 }
 .heading {
   text-align: center;
@@ -635,13 +635,13 @@ button:active {
   justify-content: cneter;
   align-items: center;
   padding: 0.8rem;
-  background: var(--main-color);
+  background: transparent;
   border-radius: 0.8rem;
   transition: 0.5s ease;
 }
-.footer-iconTop a:hover {
+/* .footer-iconTop a:hover {
   box-shadow: 0 0 1rem var(--main-color);
-}
+} */
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: var(--second-bg-color);
@@ -918,11 +918,20 @@ button:active {
   .icons {
     width: 95px;
   }
+
+  
 }
 
+
 .icons-react {
-  width: 95px;
+  width: 200px;
   border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .icons-react {
+    width: 95px;
+  }
 }
 
 .codelab{
